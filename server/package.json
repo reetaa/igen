@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
-    "botbuilder": "^3.11.0"
+    "botbuilder": "^3.11.0",
+    "canvas": "^1.6.7"
   },
   "devDependencies": {
     "restify": "^6.0.1"
