@@ -6,8 +6,7 @@ $(document).ready(function() {
       dataType: "json",
       data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
       success: function( response ) {
-        $("#random_quote").html("<p id='random_quote' class='lead text-center'>" +
-          response.quoteText + "<br/>&dash; " + response.quoteAuthor + " &dash;</p>");
+        $("#random_quote").html(response.quoteText + "<br/>&dash; " + response.quoteAuthor + " &dash;</p>");
       }
   });
 };
@@ -30,11 +29,27 @@ var getRandomFoto = function(){
   })
   .done(function(res){
     console.log(res);
+    var url = res.urls.regular;
+
+
     $("#random_image").attr('src', res.urls.regular);
   })
 };
 
 getRandomFoto();
+
+var img;  // Declare variable 'img'.
+
+function setup() {
+  createCanvas(500, 500);
+  img = loadImage();  // Load the image
+}
+
+function draw() {
+  // Displays the image at its actual size at point (0,0)
+  image(img, 0, 0);
+  // Displays the image at point (0, height/2) at half size
+};
 
 
 

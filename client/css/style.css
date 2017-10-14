@@ -1,0 +1,13 @@
+#random_quote {
+  position: absolute;
+  top: 0;
+  z-index: 10000;
+  color: white;
+  font-size: 2em;
+  margin: 50px 70px 0 50px
+}
+
+#random_image {
+  position: absolute;
+  top: 0;
+}
