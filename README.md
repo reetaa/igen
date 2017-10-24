@@ -11,7 +11,7 @@ It's a node project with bot for inspirational posters - promoting female achiev
 ## How to run and test it out?
 - Download the repo and enter the `server` directory and run `npm install`
 - Download the [Microsoft Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases/tag/v3.5.31)
-- Install the required dependencies for utilising [Canvas API](https://www.npmjs.com/package/canvas) in Node.js. For examples, if you are using a Mac, run `brew install pkg-config cairo libpng jpeg giflib` under the `server` directory and then `npm install canvas`. 
+- Install the required dependencies for utilising [Canvas API](https://www.npmjs.com/package/canvas) in Node.js. For examples, if you are using a Mac, run `brew install pkg-config cairo libpng jpeg giflib` at the `server` directory and then run `npm install canvas` in your terminal. 
 - Now run `node app.js` and go back to emulator and click connect, when it succeeds, type anything to view the bot response.   
 
 
