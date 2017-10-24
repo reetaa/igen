@@ -8,6 +8,13 @@
 This app will let you find a role model to look up and get everyday motivational posters.
 It's a node project with bot for inspirational posters - promoting female achievers.
 
+## How to run and test it out?
+- Download the repo and enter the `server` directory and run `npm install`
+- Download the [Microsoft Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases/tag/v3.5.31)
+- Install the required dependencies for utilising [Canvas API](https://www.npmjs.com/package/canvas) in Node.js. For examples, if you are using a Mac, run `brew install pkg-config cairo libpng jpeg giflib` under the `server` directory and then `npm install canvas`. 
+- Now run `node app.js` and go back to emulator and click connect, when it succeeds, type anything to view the bot response.   
+
+
 ## Why we joined `She Hacks`?
 
 To get mentorship, to learn, to network, to be inspired, to inspire with the app we create.
